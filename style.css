@@ -1,0 +1,63 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, tbody, button {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%
+}
+body {
+  font: normal 13px Arial, Helvetica, sans-serif;
+  line-height: 1.45em;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#box {
+  width: 620px;
+  border: 1px solid #333;
+}
+#map_canvas {
+  width: 420px;
+  height: 450px;
+}
+#list {
+  width: 200px;
+  height: 450px;
+  overflow: auto;
+}
+table {
+  border: none;
+  border-spacing: 1px;
+  border-collapse: collapse;
+}
+ul li {
+  list-style: none;
+  padding: 2px 4px 2px 16px;
+  margin: 0px 0px 3px 0px;
+  font-size: 12px;
+  line-height: 1.3em;
+}
+#info {
+  width: 250px;
+  font-size: 12px;
+}
+#origin {
+  width: 230px;
+}
+#close {
+  text-align: right;
+}
+a {
+  color: #08C;
+  text-decoration: none;
+  outline: none;
+}
+.even {
+  background-color: #EEE;
+}
+#streetview {
+  font-size: 11px;
+}
+#directions {
+  font-size: 10px;
+}
